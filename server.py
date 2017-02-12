@@ -1,7 +1,7 @@
 from socket import *
 
 HOST = ''
-PORT = 8080
+PORT = 80
 
 s = socket(AF_INET, SOCK_DGRAM)
 s.bind((HOST, PORT))
